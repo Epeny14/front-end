@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section-shoes {
+    margin-top: 80px;
+}
+
+.under-shoes-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-shoes {
+    position: absolute;
+    margin-left: -323px;
+    font-size: 30px;
+}
+
+.shoes-back {
+    border: 1px solid #FF914D;
+    background: #FF914D;
+    border-radius: 45px;
+    width: 50px;
+    height: 50px;
+    margin-left: 215px;
+    position: absolute;
+}
+
+.icon-back3 {
+    width: 60%;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.shoes-forward {
+    border: 1px solid #FF914D;
+    background: #FF914D;
+    border-radius: 45px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 284px;
+}
+
+.icon-forward3 {
+    margin-left: 50px;
+    width: 60%;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.flex-shoes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.shoes-1 {
+    width: 300px;
+}
+
+.title-react-1 {
+    margin-top: 10px;
+}
+
+.paragraph-shoes-1 {
+    margin-top: 5px;
+}
+
+.shoes-2 {
+    width: 300px;
+}
+
+.title-react-2 {
+    margin-top: 10px;
+}
+
+.paragraph-shoes-2 {
+    margin-top: 5px;
+}
+
+.shoes-3 {
+    width: 300px;
+}
+
+.title-react-3 {
+    margin-top: 10px;
+}
+
+.paragraph-shoes-3 {
+    margin-top: 5px;
+}
+
+.shoes-4 {
+    width: 300px;
+    height: 198px;
+}
+
+.title-react-4 {
+    margin-top: 10px;
+}
+
+.paragraph-shoes-4 {
+    margin-top: 5px;
+}
+
+.section-icons-3 {
+    display: flex;
+}

@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section-promo-1 {
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    height: 500px;
+}
+
+.under-section-promo-1 {
+    margin-top: 20px;
+}
+
+.text-promo {
+    margin-top: 40px;
+    position: absolute;
+    /*margin-left: 160px;*/
+}
+
+.title-promo-1 {
+    color: #FFFFFF;
+    font-size: 35px;
+    margin-left: 30px;
+
+}
+
+.paragraph-promo-10 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 60px;
+    position: absolute;
+}
+
+.day {
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    width: 70px;
+    height: 80px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: -211px;
+    text-align: center;
+}
+
+.title-timer-1 {
+    color: black;
+    margin-top: 5px;
+}
+
+
+.paragraph-timer-1 {
+    color: black;
+}
+
+.hours {
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    width: 70px;
+    height: 80px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: -30px;
+    text-align: center;
+}
+
+.title-timer-2 {
+    color: black;
+    margin-top: 5px;
+}
+
+.paragraph-timer-2 {
+    color: black;
+}
+
+.minute {
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    width: 70px;
+    height: 80px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 161px;
+    text-align: center;
+}
+
+.title-timer-3 {
+    color: black;
+    margin-top: 5px;
+}
+
+.paragraph-timer-3 {
+    color: black;
+}
+
+.second {
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    width: 70px;
+    height: 80px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 340px;
+    text-align: center;
+}
+
+.title-timer-4 {
+    color: black;
+    margin-top: 5px;
+}
+
+.paragraph-timer-4 {
+    color: black;
+}
+
+
+
+.section-timer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 173px;
+    /*margin-left: 297px;*/
+
+}
+
+.paragraph-button-10 {
+    color: #FFFFFF;
+    margin-top: 9px;
+    text-align: center;
+}
+
+.button-promo-15 {
+    margin-top: 265px;
+    background: #F7931E;
+    width: 130px;
+    border: 1px solid #F7931E;
+    height: 40px;
+    border-radius: 60px;
+    margin-left: 105px;
+    /*position: absolute;
+    margin-left: 255px;*/
+}
+
+.nike-promo-1 {
+    width: 500px;
+    height: 420px;
+}

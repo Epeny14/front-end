@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section-article-30 {
+    margin-top: 20px;
+}
+
+.title-section-30 {
+    font-size: 20px;
+    position: absolute;
+    margin-left: 77px;
+    margin-top: 25px;
+}
+
+.section-flex-30 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.section-fitness-30 {
+    margin-top: 80px;
+}
+
+.img-fitness-30 {
+    width: 600px;
+    height: 420px;
+}
+
+.title-festival-30 {
+    position: absolute;
+    margin-top: -145px;
+    margin-left: 30px;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.article-button-30 {
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 36px;
+    border: 1px solid #FF914D;
+    background: #FF914D;
+    color: #FFFFFF;
+    width: 105px;
+    height: 38px;
+    border-radius: 50px;
+}
+
+.paragraph-button-30 {
+    text-align: center;
+    margin-top: 7px;
+    font-size: 16PX;
+}
+
+.section-football-30 {
+    margin-top: 80px;
+}
+
+.img-football-30 {
+    width: 600px;
+    height: 420px;
+}
+
+.title-football-30 {
+    position: absolute;
+    margin-top: -145px;
+    margin-left: 30px;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.article-button-31 {
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 36px;
+    border: 1px solid #FF914D;
+    background: #FF914D;
+    color: #FFFFFF;
+    width: 105px;
+    height: 38px;
+    border-radius: 50px;
+}
+
+.paragraph-button-31 {
+    text-align: center;
+    margin-top: 7px;
+    font-size: 16px;
+}

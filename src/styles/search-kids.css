@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.under-search-11 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-search-11 {
+    position: absolute;
+}
+
+.under-title-search-1 {
+    font-size: 20px;
+    margin-left: -699px;
+    margin-top: 54px;
+}
+
+.search-back-14 {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 595px;
+    border: 1px solid #FF914D;
+    background: #FF914D;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+.search-forward-14 {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 655px;
+    border: 1px solid #FF914D;
+    background: #FF914D;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+.icon-back-95 {
+    width: 60%;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.icon-forward-95 {
+    width: 60%;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.search-kids-2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-search-10 {
+    width: 400px;
+    border: 1px solid black;
+}
+
+.title-search-12 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.img-search-11 {
+    width: 400px;
+    border: 1px solid black;
+}
+
+.title-search-13 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.img-search-12 {
+    width: 400px;
+    border: 1px solid black;
+}
+
+.title-search-14 {
+    font-size: 20px;
+    margin-top: 10px;
+}

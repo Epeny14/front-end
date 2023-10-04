@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.title-child-1 {
+    font-size: 30px;
+}
+
+.paragraph-child-1 {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.button-children {
+    margin-top: 35px;
+    border: 1px solid black;
+    background: black;
+    width: 100px;
+    height: 40px;
+    color: #FFFFFF;
+    border-radius: 60px;
+    margin-left: 710px;
+}
+
+.paragraph-child-2 {
+    margin-top: 9px;
+}
+
+
+.section-text-50 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img-children-1 {
+    text-align: center;
+}
+
+.img-child-1 {
+    width: 1370px;
+    margin-top: 55px;
+}

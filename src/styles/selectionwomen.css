@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section-moment {
+    margin-top: 80px;
+}
+
+.flex-moment-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.section-icons-11 {
+    display: flex;
+}
+
+.moment-back {
+    position: absolute;
+    border: 1px solid #FF914D;
+    background: #FF914D;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    margin-left: 195px;
+}
+
+.icon-back-9 {
+    width: 60%;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.moment-forward {
+    position: absolute;
+    margin-left: 60px;
+    border: 1px solid #FF914D;
+    background: #FF914D;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    margin-left: 255px;
+}
+
+.icon-forward-9 {
+    width: 60%;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.under-titles-5 {
+    position: absolute;
+    font-size: 20px;
+    margin-left: -290px;
+}
+
+.flex-moment-2 {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-moment-1 {
+    width: 350px;
+    height: 260px;
+    margin-top: 25px;
+}
+
+.title-moment-2 {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.img-moment-2 {
+    width: 350px;
+    height: 260px;
+}
+
+.title-moment-3 {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.img-moment-3 {
+    width: 350px;
+    height: 260px;
+}
+
+.title-moment-4 {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}

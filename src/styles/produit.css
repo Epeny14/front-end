@@ -1,0 +1,163 @@
+.img-nike {
+    width: 93px;
+    width: 500px;
+    height: 370px;
+}
+
+.produits {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.section-text1 {
+    margin-left: 103px;
+    margin-top: 40px;
+}
+
+.section-image1 {
+    margin-right: 100px;
+}
+
+.text1 {
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
+}
+
+.paragraph-lorem {
+    color: #FF914D;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.button-3 {
+    border-radius: 25px;
+    border: 1px solid #FF914D;
+    /* padding: 27px; */
+    width: 141px;
+    height: 44px;
+    background: #FF914D;
+    margin-top: 25px;
+}
+
+.under-button {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.title-nike2 {
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
+}
+
+.price {
+    color: #FF914D;
+}
+
+.img-source {
+    width: 15%;
+}
+
+.under-basket-2 {
+    display: contents;
+}
+
+/*---------------- Le style de la page Sections.js---------------------*/
+.under-section5 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title10 {
+    position: absolute;
+    color: #FF914D;
+    margin-left: 105px;
+    margin-top: 40px;
+}
+
+.buttons-produit1 {
+    position: absolute;
+    margin-left: 1265px;
+    margin-top: 30px;
+    border-radius: 25px;
+    border: 1px solid #FF914D;
+    background: #FF914D;
+    width: 141px;
+    height: 44px;
+}
+
+.paragraph-plus2 {
+    text-align: center;
+    color: white;
+    margin-top: 11px;
+}
+
+.section-produit1 {
+    margin-top: 50px;
+}
+
+.img-produit1 {
+    margin-top: 100px;
+}
+
+.img-foot1 {
+    width: 307px;
+    height: 362px;
+    margin-top: 125px;
+}
+
+.title-adidas1 {
+    color: #FF914D;
+    margin-top: 10px;
+
+}
+
+.price-tag1 {
+    color: #FF914D;
+    margin-top: 10px;
+
+}
+
+.img-produit2 {
+    margin-top: 100px;
+}
+
+.title-adidas2 {
+    color: #FF914D;
+    margin-top: 10px;
+
+}
+
+.price-tag2 {
+    color: #FF914D;
+    margin-top: 10px;
+
+}
+
+.img-basket2 {
+    width: 307px;
+    height: 362px;
+}
+
+.img-produit3 {
+    margin-top: 100px;
+}
+
+.img-foot3 {
+    width: 307px;
+    height: 362px;
+}
+
+.title-adidas3 {
+    color: #FF914D;
+    margin-top: 10px;
+
+}
+
+.price-tag3 {
+    color: #FF914D;
+    margin-top: 10px;
+
+}

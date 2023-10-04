@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.article-child {
+    margin-top: 60px;
+}
+
+
+.img-child-2 {
+    width: 400px;
+    margin-top: 90px;
+}
+
+.under-child-1 {
+    margin-top: 70px;
+}
+
+.title-baby {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.title-age-1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.img-child-3 {
+    width: 400px;
+    height: 276px;
+}
+
+.under-child-2 {
+    margin-top: 70px;
+}
+
+
+.title-child-90 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.title-age-2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+.title-teenager-1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.img-child-4 {
+    width: 400px;
+}
+
+.under-child-3 {
+    margin-top: 70px;
+}
+
+.title-age-3 {
+
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.flex-child-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
+
+.title-kids {
+    position: absolute;
+}
+
+.title-child-2 {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 54px;
+}
+
+.button-children-2 {
+    border: 1px solid #F7931E;
+    background: #F7931E;
+    width: 110px;
+    color: #FFFFFF;
+    height: 30px;
+    border-radius: 60px;
+    text-align: center;
+    margin-left: 143px;
+    margin-top: 20px;
+}
+
+.under-button-25 {
+    margin-top: 5px;
+}
+
+.button-children-3 {
+    border: 1px solid #F7931E;
+    background: #F7931E;
+    width: 110px;
+    color: #FFFFFF;
+    height: 30px;
+    border-radius: 60px;
+    text-align: center;
+    margin-left: 143px;
+    margin-top: 20px;
+}
+
+.under-button-26 {
+    margin-top: 5px;
+}
+
+
+.button-children-4 {
+    border: 1px solid #F7931E;
+    background: #F7931E;
+    width: 110px;
+    color: #FFFFFF;
+    height: 30px;
+    border-radius: 60px;
+    text-align: center;
+    margin-left: 143px;
+    margin-top: 20px;
+}
+
+.under-button-27 {
+    margin-top: 5px;
+}

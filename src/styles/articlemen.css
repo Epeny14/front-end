@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.ttile-articles-14 {
+    margin-top: 60px;
+}
+
+.title-article-15 {
+    /*position: absolute;*/
+    margin-left: 80px;
+    margin-top: 55px;
+}
+
+.section-articles {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skatebord-article {
+    width: 600px;
+}
+
+.stade-article {
+    width: 600px;
+    height: 397px;
+}
+
+.under-festival-1 {
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 30px;
+}
+
+.title-festival-1 {
+    color: #FFFFFF;
+    font-size: 24px;
+    position: absolute;
+    margin-top: -13px;
+    margin-left: 15px;
+}
+
+.under-festival-2 {
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 30px;
+}
+
+.title-festival-2 {
+    color: #FFFFFF;
+    font-size: 24px;
+    position: absolute;
+    margin-top: -13px;
+    margin-left: 15px;
+}
+
+.article-button-1 {
+    margin-top: 40px;
+    border: 1px solid #FF914D;
+    border-radius: 50px;
+    background: #FF914D;
+    width: 150px;
+    height: 57px;
+    text-align: center;
+}
+
+.button-buy-1 {
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 15px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+
+.article-button-2 {
+    margin-top: 40px;
+    border: 1px solid #FF914D;
+    border-radius: 50px;
+    background: #FF914D;
+    width: 150px;
+    height: 57px;
+    text-align: center;
+}
+
+.button-buy-2 {
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 15px;
+    color: #FFFFFF;
+    font-size: 20px;
+}

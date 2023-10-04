@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section-homme {
+    margin-top: 25px;
+}
+
+.paragraph-homme {
+    margin-top: 20px;
+}
+
+.section-text-2 {
+    text-align: center;
+}
+
+.shirt-homme-1 {
+    width: 1400px;
+}
+
+.section-images1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.button-homme {
+    margin-top: 20px;
+    border: 1px solid black;
+    background: black;
+    width: 100px;
+    color: white;
+    border-radius: 25px;
+    height: 40px;
+    margin-left: 710px;
+}
+
+.under-paragraph1 {
+    margin-top: 10px;
+}

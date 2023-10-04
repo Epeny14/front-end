@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.under-weeks-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-weeks-11 {
+    position: absolute;
+}
+
+.under-title-weeks-1 {
+    font-size: 20px;
+    margin-left: -699px;
+    margin-top: 54px;
+}
+
+.weeks-back-1 {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 595px;
+    border: 1px solid #FF914D;
+    background: #FF914D;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+.icon-back-85 {
+    width: 60%;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.weeks-forward-1 {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 655px;
+    border: 1px solid #FF914D;
+    background: #FF914D;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+.icon-forward-85 {
+    width: 60%;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.weeks-shoes-1 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-weeks-1 {
+    width: 400px;
+    border: 1px solid black;
+}
+
+.title-weeks-12 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.price-tag-4 {
+    margin-top: 5px;
+}
+
+.img-weeks-2 {
+    width: 400px;
+    border: 1px solid black;
+}
+
+.title-weeks-13 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.price-tag-5 {
+    margin-top: 5px;
+}
+
+.img-weeks-3 {
+    width: 400px;
+    border: 1px solid black;
+}
+
+.title-weeks-14 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.price-tag-6 {
+    margin-top: 5px;
+}

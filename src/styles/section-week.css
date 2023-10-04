@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.under-week-1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-icons-10 {
+    display: flex;
+}
+
+.week-back {
+    position: absolute;
+    position: absolute;
+    border: 1px solid #FF914D;
+    background: #FF914D;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    margin-left: 200px;
+}
+
+.icon-back-8 {
+    width: 60%;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.week-forward {
+    position: absolute;
+    position: absolute;
+    margin-left: 269px;
+    border: 1px solid #FF914D;
+    background: #FF914D;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+.icon-forward-8 {
+    width: 60%;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.title-week {
+    position: absolute;
+    margin-left: -338px;
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+.section-img-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.img-sneakers-1 {
+    width: 300px;
+    border: 1px solid black;
+}
+
+.img-sneakers-2 {
+    width: 300px;
+    border: 1px solid black;
+}
+
+.img-sneakers-3 {
+    width: 300px;
+    border: 1px solid black;
+    height: 201px;
+}
+
+.img-sneakers-4 {
+    width: 300px;
+    border: 1px solid black;
+    height: 201px;
+}
+
+.title-react-v3 {
+    margin-top: 10px;
+}
+
+.price-sneakers-1 {
+    margin-top: 5px;
+}
+
+.title-react-v4 {
+    margin-top: 10px;
+}
+
+.price-sneakers-2 {
+    margin-top: 5px;
+}
+
+
+.title-run-v3 {
+    margin-top: 10px;
+}
+
+.price-sneakers-3 {
+    margin-top: 5px;
+}
+
+
+.title-air-v7 {
+    margin-top: 10px;
+}
+
+.price-sneakers-4 {
+    margin-top: 5px;
+}

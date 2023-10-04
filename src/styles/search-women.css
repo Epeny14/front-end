@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-search-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.section-icons-12 {
+    display: flex;
+}
+
+.title-flex-10 {
+    position: absolute;
+    font-size: 20px;
+    margin-left: -214px;
+    margin-left: -336px;
+    margin-top: 35px;
+}
+
+.search-back-10 {
+    border: 1px solid #FF914D;
+    background: #FF914D;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 215px;
+}
+
+.icon-back-10 {
+    width: 60%;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+
+.search-forward-10 {
+    border: 1px solid #FF914D;
+    background: #FF914D;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 286px;
+}
+
+.icon-forward-10 {
+    width: 60%;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.section-flex-10 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.football-women {
+    width: 418px;
+    height: 260px;
+}
+
+.football-title-1 {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.basketball-women {
+    width: 418px;
+    height: 260px;
+}
+
+.basketball-title-1 {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.tennis-women {
+    width: 418px;
+    height: 260px;
+}
+
+.tennis-title-1 {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}

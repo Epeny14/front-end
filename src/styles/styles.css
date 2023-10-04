@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*------------ Le style la page Header.js--------------*/
+li {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0 20px;
+
+}
+
+.logo {
+    width: 134px;
+    margin-top: -24px;
+    position: relative;
+    height: 120px;
+
+}
+
+.header {
+    display: flex;
+    height: 65px;
+    border-bottom: 1px solid black;
+}
+
+.under-header {
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 330px;
+}
+
+.search {
+    width: 40%;
+}
+
+.img-search {
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 19px;
+}
+
+.buying {
+    width: 40%;
+}
+
+.img-buying {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 19px;
+}
+
+.list {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+/*---------- Le style de la page Basket.js --------------*/
+.under-basket-1 {
+    display: contents;
+}
+
+.section-basket {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 115px;
+}
+
+.basket-1 {
+    width: 303px;
+    height: 320px;
+}
+
+.title-nike1 {
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+.price2 {
+    color: #FF914D;
+    margin-top: 5px;
+}
+
+.basket-2 {
+    width: 303px;
+    height: 320px;
+}
+
+.title-nike2 {
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+.price3 {
+    color: #FF914D;
+    margin-top: 5px;
+}
+
+.basket-3 {
+    width: 303px;
+    height: 320px;
+}
+
+.title-nike3 {
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+.price4 {
+    color: #FF914D;
+    margin-top: 5px;
+}
+
+/*--------------Le style de la page Promo.js------------------*/
+.image-promo {
+    background: url(../img/nike-promo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    margin-left: 380px;
+    margin-top: 40px;
+    /*padding: 124px;
+    border: 1px solid black;*/
+}
+
+.title-nike4 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 111px;
+    position: absolute;
+    margin-top: 95px;
+    font-size: 50px;
+}
+
+.buttons-1 {
+    border-radius: 25px;
+    border: 1px solid #FF914D;
+    width: 214px;
+    height: 69px;
+    background: #FF914D;
+    margin-left: 303px;
+    position: absolute;
+    margin-top: 160px;
+}
+
+.paragraph-plus {
+    color: white;
+    text-align: center;
+    margin-top: 18px;
+    font-size: 26px;
+}

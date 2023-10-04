@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sections1 {
+    margin-top: 50px;
+}
+
+.section-homme2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-moment {
+    position: absolute;
+    margin-left: -283px;
+    margin-top: 25px;
+}
+
+.section-icons1 {
+    display: flex;
+}
+
+.back {
+    border: 1px solid #FF914D;
+    background: #FF914D;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    margin-left: 157px;
+}
+
+.icon-back {
+    width: 60%;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.section-flex-1 {
+    display: contents;
+}
+
+.forward {
+    margin-left: 224px;
+    border: 1px solid #FF914D;
+    background: #FF914D;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+}
+
+.icon-forward {
+    width: 60%;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.section-flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.adidas-homme {
+    width: 180px;
+}
+
+.title-homme1 {
+    margin-top: 10px;
+}
+
+.price-homme1 {
+    margin-top: 5px;
+}
+
+.nike-homme {
+    width: 180px;
+}
+
+.title-homme2 {
+    margin-top: 10px;
+}
+
+.price-homme2 {
+    margin-top: 5px;
+}
+
+.adidas-homme-2 {
+    width: 180px;
+}
+
+.title-homme3 {
+    margin-top: 10px;
+}
+
+.price-homme3 {
+    margin-top: 5;
+}
+
+.nike-homme-2 {
+    width: 180px;
+}
+
+.title-homme4 {
+    margin-top: 10px;
+}
+
+.price-homme4 {
+    margin-top: 5px;
+}

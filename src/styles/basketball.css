@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section-shirt-20 {
+    margin-top: 50px;
+}
+
+.under-section-shirt-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-1 {
+    width: 300px;
+}
+
+.paragraph-react-1 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.section-stars-1 {
+    margin-top: 10px;
+    margin-left: -8px;
+}
+
+.star {
+    width: 33px;
+}
+
+.title-react-1 {
+    font-size: 20px;
+}
+
+.img-2 {
+    width: 300px;
+    border: 1px solid black;
+}
+
+.paragraph-react-2 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.title-react-2 {
+    font-size: 20px;
+}
+
+.img-3 {
+    width: 300px;
+    border: 1px solid black;
+}
+
+.paragraph-react-3 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.title-react-3 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.under-section-shirt-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+.paragraph-react-4 {
+    font-size: 20px;
+    margin-top: 5px;
+
+}
+
+.title-react-4 {
+    font-size: 20px;
+}
+
+.img-3 {
+    width: 300px;
+}
+
+.paragraph-react-5 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.title-react-5 {
+    font-size: 20px;
+}
+
+.img-4 {
+    width: 300px;
+}
+
+.paragraph-react-6 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.title-react-6 {
+    font-size: 20px;
+}
+
+.img-5 {
+    width: 300px;
+}
+
+.paragraph-react-7 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.title-react-7 {
+    font-size: 20px;
+}
+
+.under-section-shirt-3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.paragraph-react-8 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.title-react-8 {
+    font-size: 20px;
+}
+
+.img-6 {
+    width: 300px;
+}
+
+.paragraph-react-9 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.title-react-9 {
+    font-size: 20px;
+}
+
+.img-7 {
+    width: 300px;
+    border: 1px solid black;
+}
+
+.img-8 {
+    width: 300px;
+    border: 1px solid black;
+}
+
+.img-9 {
+    width: 300px;
+}

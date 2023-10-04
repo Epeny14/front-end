@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text-section-1 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.img-10 {
+    width: 1350px;
+}
+
+.description-paragraph-1 {
+    margin-top: 20px;
+}
+
+.button-10 {
+    margin-top: 30px;
+    border: 1px solid black;
+    background: black;
+    color: #FFFFFF;
+    width: 130px;
+    margin-left: 690px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.img-women-1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.paragraph-button-1 {
+    margin-top: 9px;
+    font-size: 15px;
+}

@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    background-color: black;
+    margin-top: 60px;
+    height: 380px;
+}
+
+.section-newsletter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.newsletter-text {
+    margin-top: 20px;
+}
+
+.section-form {
+    margin-top: 20px;
+}
+
+.title-newsletter {
+    color: white;
+    margin-top: 17px;
+}
+
+.btn-newsletter {
+    margin-left: 20px;
+    background: #FF914D;
+    color: #FFFFFF;
+    border: 1px solid #FF914D;
+    border-radius: 50px;
+    /* padding: 12px; */
+    width: 100px;
+    height: 40px;
+}
+
+.form-newsletter {
+    border: 1px solid black;
+    width: 250px;
+    height: 40px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.border-newsletter {
+    margin-top: 20px;
+    width: 1052px;
+    position: relative;
+    margin-left: 228px;
+}
+
+.menu-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.under-menu-footer-1 {
+    position: absolute;
+    position: absolute;
+    margin-right: 976px;
+    margin-top: 20px;
+}
+
+.under-menu-footer-2 {
+    position: absolute;
+    margin-top: 20px;
+}
+
+.under-menu-footer-3 {
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 20px;
+}
+
+.list-footer {
+    color: #FFFFFF;
+}
+
+.logo-facebook {
+    width: 40px;
+    margin-left: 13px;
+    position: absolute;
+}
+
+.logo-instagram {
+    width: 40px;
+    margin-left: 54px;
+    position: absolute;
+}
+
+.logo-twitter {
+    width: 40px;
+    margin-left: 97px;
+    position: absolute;
+}
+
+.logo-pinterest {
+    width: 40px;
+    margin-left: 140px;
+    position: absolute;
+}
+
+.border-newsletter-2 {
+    margin-top: 210px;
+    width: 1052px;
+    position: relative;
+    margin-left: 228px;
+}
+
+.copyright-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-shopsports {
+    height: 100px;
+    margin-top: -33px;
+    position: absolute;
+    margin-left: -35px;
+}
+
+.logo-copyright {
+    height: 55px;
+    margin-top: 5px;
+    margin-left: 123px;
+    position: absolute;
+}
+
+.copyright-date {
+    color: #FFFFFF;
+    margin-top: 22px;
+    margin-left: 200px;
+    position: absolute;
+}

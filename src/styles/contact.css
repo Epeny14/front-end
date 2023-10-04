@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title-contact-1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* 
+.forms {
+    display: flex;
+    flex-direction: column;
+} */
+
+.section-forms {
+    text-align: center;
+}
+
+textarea {
+    width: 260px;
+    height: 87px;
+}
+
+.input {
+    width: 260px;
+    height: 30px;
+}
