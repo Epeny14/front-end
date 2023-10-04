@@ -11,7 +11,7 @@ const Header = () => {
         <div>
             <div className="header">
                 <ul>
-                    <NavLink to="/accueil" style={{ textDecoration: 'none' }}>
+                    <NavLink to="/" style={{ textDecoration: 'none' }}>
                         <li>
                             <img className='logo' src={MonImage} alt="Logo Shopsports"></img>
                         </li>

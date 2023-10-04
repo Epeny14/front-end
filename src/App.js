@@ -34,7 +34,7 @@ const App = () => {
       <Routes>
 
         <Route path="/homme" element={<Homme />} />
-        <Route path="/accueil" element={<Accueil />} />
+        <Route path="/" element={<Accueil />} />
         <Route path="/femme" element={<Femme />} />
         <Route path="/enfant" element={<Enfant />} />
         <Route path="/description-nike-air-zoom" element={<AirZoom />} />
