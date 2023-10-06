@@ -11,7 +11,7 @@ const SectionHomme = () => {
                     <h1>Les nouvelles collections des t-shirt</h1>
                     <p className='paragraph-homme'>Très confortable. Bonne qualité. Grand choix des t-shirts avec différentes tailles et couleurs.</p>
                     <div className='button-homme'>
-                        <Link to="/t-shirt" className='link-1'><p className='under-paragraph1'>Acheter</p></Link>
+                        <Link to="/t-shirt" className='link-1'><p className='under-paragraph1'>Voir plus</p></Link>
                     </div>
                 </div>
 

@@ -19,7 +19,7 @@ const ContactForm = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('http://localhost:3000/formulaires', {
+            const response = await fetch('http://localhost:3001/formulaires', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

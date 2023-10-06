@@ -10,7 +10,7 @@ const PromoWomen = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:3000/nike')
+        axios.get('http://localhost:3001/nike')
             .then((response) => {
                 setData(response.data);
             })

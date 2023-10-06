@@ -9,7 +9,8 @@
 }
 
 .img-10 {
-    width: 1350px;
+    width: 80%;
+    height: 550px;
 }
 
 .description-paragraph-1 {
@@ -35,4 +36,9 @@
 .paragraph-button-1 {
     margin-top: 9px;
     font-size: 15px;
+}
+
+.link-women {
+    color: #FFFFFF;
+    text-decoration: none;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import Img42 from '../img/iStock-Leggins.jpg';
 import '../styles/sectionwomen.css';
+import { Link } from 'react-router-dom';
 
 const SectionWomen = () => {
     return (
@@ -10,7 +11,7 @@ const SectionWomen = () => {
                     <h1 className='title-15'>Nouvelles collections leggins</h1>
                     <p className='description-paragraph-1'>Découvert les nouvelles collections avec des bonne qualité</p>
                     <div className='button-10'>
-                        <p className='paragraph-button-1'>Acheter</p>
+                        <Link className='link-women' to=""><p className='paragraph-button-1'>Voir plus</p></Link>
                     </div>
                 </div>
                 <div className='img-women-1'>

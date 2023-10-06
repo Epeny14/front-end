@@ -27,6 +27,7 @@ import FootballMen from './pages/FootballMen';
 import BasketballMen from './pages/BasketballMen';
 import TennisMen from './pages/TennisMen';
 import Contact from './pages/Contact';
+import WomanCatalog from './pages/WomanCatalog';
 
 const App = () => {
   return (
@@ -59,6 +60,7 @@ const App = () => {
         <Route path="/basketball-homme" element={<BasketballMen />} />
         <Route path="/tennis-homme" element={<TennisMen />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/femme-catalogue" element={<WomanCatalog />} />
       </Routes>
     </BrowserRouter>
   );

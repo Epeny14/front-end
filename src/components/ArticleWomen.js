@@ -15,14 +15,14 @@ const ArticleWomen = () => {
                         <img src={Img58} alt="fitness" className='img-fitness-30'></img>
                         <h2 className='title-festival-30'>Festival d'été</h2>
                         <div className='article-button-30'>
-                            <p className='paragraph-button-30'>Acheter</p>
+                            <p className='paragraph-button-30'>Voir plus</p>
                         </div>
                     </div>
                     <div className='section-football-30'>
                         <img src={Img59} alt="football" className='img-football-30'></img>
                         <h2 className='title-football-30'>Tenues de foot</h2>
                         <div className='article-button-31'>
-                            <p className='paragraph-button-31'>Acheter</p>
+                            <p className='paragraph-button-31'>Voir plus</p>
                         </div>
                     </div>
                 </div>

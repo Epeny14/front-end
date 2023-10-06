@@ -38,9 +38,9 @@ const Nikes = () => {
                             ce qui les aide à optimiser leur performance.
                         </p>
                         <h2 className='title-50'>Couleurs : Rouge, blanche</h2>
-                        <div className='button-cart-1'>
+                        {/* <div className='button-cart-1'>
                             <p className='paragraph-cart-1'>Ajouter au panier</p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

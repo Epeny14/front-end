@@ -14,7 +14,7 @@ const SearchWomen = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:3000/women')
+        axios.get('http://localhost:3001/women')
             .then((response) => {
                 setData(response.data);
             })

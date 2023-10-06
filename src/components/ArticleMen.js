@@ -17,7 +17,7 @@ const ArticleMen = () => {
                     <div className='under-festival-1'>
                         <h2 className='title-festival-1'>Festival dété</h2>
                         <div className='article-button-1'>
-                            <p className='button-buy-1'>Acheter</p>
+                            <p className='button-buy-1'>Voir plus</p>
                         </div>
                     </div>
                 </div>
@@ -26,7 +26,7 @@ const ArticleMen = () => {
                     <div className='under-festival-2'>
                         <h2 className='title-festival-2'>Festival dété</h2>
                         <div className='article-button-2'>
-                            <p className='button-buy-2'>Acheter</p>
+                            <p className='button-buy-2'>Voir plus</p>
                         </div>
                     </div>
                 </div>

@@ -16,7 +16,7 @@ const SectionWeek = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:3000/femme')
+        axios.get('http://localhost:3001/femme')
             .then((response) => {
                 setData(response.data);
             })

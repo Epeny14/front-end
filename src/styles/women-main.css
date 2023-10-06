@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img-women-10 {
+    width: 250px;
+}
+
+.img-women-2 {
+    width: 250;
+}
+
+.img-women-3 {
+    width: 50%;
+}
+
+.img-women-4 {
+    width: 50%;
+}
+
+.img-women-5 {
+    width: 50%;
+}
+
+.img-women-6 {
+    width: 50%;
+}
+
+.women-flex-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.women-flex-2 {
+    display: flex;
+    justify-content: space-around;
+}

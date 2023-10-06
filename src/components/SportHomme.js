@@ -14,7 +14,7 @@ const SportHomme = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:3000/search')
+        axios.get('http://localhost:3001/search')
             .then((response) => {
                 setData(response.data);
             })
@@ -56,7 +56,7 @@ const SportHomme = () => {
                         {data.map((item) => (
                             <div key={item.id}>
                                 <img className='football-men' src={item.imageUrl} alt={item.nom} />
-                                <Link to='/description-ballon-adidas' className='link-1'><h2 className='title-football-1'>{item.nom}</h2></Link>
+                                <Link to='' className='link-1'><h2 className='title-football-1'>{item.nom}</h2></Link>
                             </div>
                         ))}
                     </div>

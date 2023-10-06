@@ -16,7 +16,7 @@ const Menshoes = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:3000/shoes')
+        axios.get('http://localhost:3001/shoes')
             .then((response) => {
                 setData(response.data);
             })

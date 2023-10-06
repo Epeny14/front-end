@@ -11,7 +11,7 @@ const Sections = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:3000/produit')
+        axios.get('http://localhost:3001/produit')
             .then((response) => {
                 setData(response.data);
             })
@@ -32,7 +32,7 @@ const Sections = () => {
                         {data.map((item) => (
                             <div key={item.id}>
                                 <img className='img-foot1' src={item.imageUrl} alt={item.nom} />
-                                <Link to='/description-ballon-adidas' className='link-1'><h2 className='title-adidas1'>{item.nom}</h2></Link>
+                                <Link to='' className='link-1'><h2 className='title-adidas1'>{item.nom}</h2></Link>
                                 <p className='price-tag1'>{item.prix} €</p>
                             </div>
                         ))}

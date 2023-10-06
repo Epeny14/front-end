@@ -12,7 +12,7 @@ const ArticleChildren = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:3000/kids')
+        axios.get('http://localhost:3001/kids')
             .then((response) => {
                 setData(response.data);
             })

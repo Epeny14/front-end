@@ -9,7 +9,7 @@ const Produit = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:3000/home')
+        axios.get('http://localhost:3001/home')
             .then((response) => {
                 setData(response.data);
             })
@@ -29,7 +29,7 @@ const Produit = () => {
                         </div>
                     ))}
                     <div class="button-3">
-                        <Link to="/description-nike-air-red" className='link-1'><p className='under-button'>Voir plus</p></Link>
+                        <Link to="" className='link-1'><p className='under-button'>Voir plus</p></Link>
                     </div>
                 </div>
                 <div className='section-image1'>

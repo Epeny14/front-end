@@ -14,7 +14,7 @@ const SearchKids = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:3000/children')
+        axios.get('http://localhost:3001/children')
             .then((response) => {
                 setData(response.data);
             })

@@ -10,7 +10,7 @@ const SectionChild = () => {
                     <h1 className='title-child-1'>Preparer la rentrée ensemble</h1>
                     <p className='paragraph-child-1'>Découvre tous les produits pour bien démarrer la rentrée</p>
                     <div className='button-children'>
-                        <p className='paragraph-child-2'>Acheter</p>
+                        <p className='paragraph-child-2'>Voir plus</p>
                     </div>
                 </div>
                 <div className='img-children-1'>

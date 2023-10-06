@@ -38,9 +38,9 @@ const Zoom = () => {
                             offrant une variété de styles pour répondre aux besoins des athlètes et des amateurs de mode.
                         </p>
                         <h2 className='title-50'>Couleurs : Gris, blanche</h2>
-                        <div className='button-cart-1'>
+                        {/* <div className='button-cart-1'>
                             <p className='paragraph-cart-1'>Ajouter au panier</p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

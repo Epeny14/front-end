@@ -12,7 +12,7 @@ const Baskets = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:3000/basket')
+        axios.get('http://localhost:3001/basket')
             .then((response) => {
                 setData(response.data);
             })
@@ -28,7 +28,7 @@ const Baskets = () => {
                     {data.map((item) => (
                         <div key={item.id}>
                             <img className='basket-1' src={item.imageUrl} alt={item.nom} />
-                            <Link to="/description-nike-air-max" className='link-1'><h3 className='title-nike1'>{item.nom}</h3></Link>
+                            <Link to="" className='link-1'><h3 className='title-nike1'>{item.nom}</h3></Link>
                             <p className='price2'>{item.prix} €</p>
                         </div>
                     ))}

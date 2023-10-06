@@ -15,7 +15,7 @@ const WeekChild = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:3000/stuff')
+        axios.get('http://localhost:3001/stuff')
             .then((response) => {
                 setData(response.data);
             })

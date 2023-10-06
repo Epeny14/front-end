@@ -14,7 +14,7 @@ const SelectionWomen = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:3000/images')
+        axios.get('http://localhost:3001/images')
             .then((response) => {
                 setData(response.data);
             })
