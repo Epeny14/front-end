@@ -3,39 +3,43 @@
     padding: 0;
 }
 
-.section-description {
+.section-description-men {
     background: #D9D9D9;
     height: 800px;
 }
 
-.title-description-11 {
+.title-description-men {
     font-size: 25px;
     position: absolute;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
-.flex-11 {
+.flex-men {
     display: flex;
     justify-content: space-around;
     /*margin-top: 60px;*/
 
 }
 
-.nike-air-1 {
+.nike-air-men {
     width: 650px;
     height: 600px;
 }
 
-.price-tag-50 {
+.price-tag-men {
     font-size: 15px;
     position: absolute;
     margin-top: 40px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
-.stars-1 {
+.stars-men {
     margin-top: 70px;
 }
 
-.img-star {
+.img-star-men {
     width: 25px;
 }
 
@@ -55,12 +59,12 @@
     color: red;
 }
 
-.paragraph-50 {
+.paragraph-mens {
     margin-top: 20px;
     font-size: 19px;
 }
 
-.title-50 {
+.title-men {
     font-size: 15px;
     margin-top: 25px;
 }
@@ -81,11 +85,11 @@
     font-size: 15px;
 }
 
-.section-img-10 {
+.section-img-mens {
     margin-top: 100px;
 }
 
-.description-1 {
+.description-mens {
     margin-top: 100px;
 
 }
@@ -130,64 +134,79 @@
     margin-top: -60px;
 }
 
-.under-title-zoom {
+.under-title-zoom-men {
     font-size: 20px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
-.title-zoom {
+.title-zoom-men {
     position: absolute;
     margin-left: -1095px;
     margin-top: 104px;
 }
 
-.flex-image-1 {
+.flex-image-men {
     display: flex;
     justify-content: space-around;
     margin-top: 150px;
 }
 
-.img-zoom-1 {
+.img-zoom-men-1 {
     width: 330px;
     height: 330px;
 }
 
-.title-zoom-1 {
+.title-zoom-men-1 {
     font-size: 20px;
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
-.paragraph-zoom-1 {
+.paragraph-zoom-men-1 {
     font-size: 15px;
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
-.img-zoom-2 {
+.img-zoom-men-2 {
     width: 330px;
     height: 330px;
     border: 1px solid black;
 }
 
-.title-zoom-2 {
+.title-zoom-men-2 {
     font-size: 20px;
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
-.paragraph-zoom-2 {
+.paragraph-zoom-men-2 {
     font-size: 15px;
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
-.img-zoom-3 {
+.img-zoom-men-3 {
     width: 330px;
     height: 330px;
+    border: 1px solid black;
 }
 
-.title-zoom-3 {
+.title-zoom-men-3 {
     font-size: 20px;
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
-.paragraph-zoom-3 {
+.paragraph-zoom-men-3 {
     font-size: 15px;
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }

@@ -7,6 +7,9 @@
     margin-top: 60px;
 }
 
+.link-child {
+    text-decoration: none;
+}
 
 .img-child-2 {
     width: 400px;
@@ -14,18 +17,22 @@
 }
 
 .under-child-1 {
-    margin-top: 70px;
+    margin-top: -26px;
 }
 
 .title-baby {
     font-size: 20px;
     text-align: center;
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .title-age-1 {
     text-align: center;
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -43,11 +50,15 @@
     font-size: 20px;
     text-align: center;
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .title-age-2 {
     text-align: center;
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -56,6 +67,8 @@
     font-size: 20px;
     text-align: center;
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .img-child-4 {
@@ -70,6 +83,8 @@
 
     text-align: center;
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -88,6 +103,8 @@
     font-size: 20px;
     margin-top: 25px;
     margin-left: 54px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .button-children-2 {

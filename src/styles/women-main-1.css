@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section-flex-50 {
+    margin-top: 100px;
+}
+
+.women-flex-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-women-3 {
+    width: 395px;
+}
+
+.name-1 {
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.paragraph-price {
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+}
+
+.img-women-2 {
+    width: 80%;
+    height: 80%;
+}
+
+.img-women-10 {
+    width: 80%;
+    height: 80%;
+}
+
+/* .section-stuffs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-women-4 {
+    width: 50%;
+}
+
+.img-women-5 {
+    width: 50%;
+    border: 1px solid black;
+}
+
+.img-women-6 {
+    width: 35%;
+} */

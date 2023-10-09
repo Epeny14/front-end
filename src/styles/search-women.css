@@ -92,3 +92,9 @@
     margin-top: 10px;
     text-align: center;
 }
+
+.link-search {
+    text-decoration: none;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
+}

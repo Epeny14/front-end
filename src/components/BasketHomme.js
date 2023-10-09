@@ -1,27 +1,27 @@
-// import React from 'react';
-// import Img25 from '../img/Adidas - 1.png';
-// import Img26 from '../img/Nike - 1.png';
-// import Img27 from '../img/Design sans titre (3).png';
-// import Img28 from '../img/Design sans titre (5).png';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import Img25 from '../img/Adidas - 1.png';
+import Img26 from '../img/Nike - 1.png';
+import Img27 from '../img/Design sans titre (3).png';
+import Img28 from '../img/Design sans titre (5).png';
+// import React, { useEffect, useState } from 'react';
 import Img23 from '../img/Back.png';
 import Img24 from '../img/Forward.png';
 import { Link } from 'react-router-dom';
 import "../styles/baskethomme.css";
-import axios from 'axios';
+// import axios from 'axios';
 
 const BasketHomme = () => {
-    const [data, setData] = useState([]);
+    // const [data, setData] = useState([]);
 
-    useEffect(() => {
-        axios.get('http://localhost:3001/chaussures')
-            .then((response) => {
-                setData(response.data);
-            })
-            .catch((error) => {
-                console.error('Erreur lors de la récupération des données :', error);
-            });
-    }, []);
+    // useEffect(() => {
+    //     axios.get('http://localhost:3001/chaussures')
+    //         .then((response) => {
+    //             setData(response.data);
+    //         })
+    //         .catch((error) => {
+    //             console.error('Erreur lors de la récupération des données :', error);
+    //         });
+    // }, []);
 
     return (
         <div>
@@ -40,7 +40,7 @@ const BasketHomme = () => {
                     </div>
                 </div>
                 <div className='section-flex'>
-                    <div className='section-flex-1'>
+                    {/* <div className='section-flex-1'>
                         {data.map((item) => (
                             <div key={item.id}>
                                 <img className='adidas-homme' src={item.url} alt={item.nom} />
@@ -48,8 +48,8 @@ const BasketHomme = () => {
                                 <p className='price-tag1'>{item.prix} €</p>
                             </div>
                         ))}
-                    </div>
-                    {/* <div className='section-adidas-1'>
+                    </div> */}
+                    <div className='section-adidas-1'>
                         <img src={Img25} alt="Adidas" className="adidas-homme"></img>
                         <Link to="/description-adidas-react" className='link-1'><h3 className='title-homme1'>Baskets adidas</h3></Link>
                         <p className='price-homme1'>44,30 €</p>
@@ -68,7 +68,7 @@ const BasketHomme = () => {
                         <img src={Img28} alt="Nike" className="nike-homme-2"></img>
                         <Link to="/description-nike-air-max-homme" className='link-1'><h3 className='title-homme4'>Nike Air Max</h3></Link>
                         <p className='price-homme4'>35,30 €</p>
-                    </div> */}
+                    </div>
                 </div>
             </div>
         </div>

@@ -3,39 +3,43 @@
     padding: 0;
 }
 
-.section-description {
+.section-description-adidas {
     background: #D9D9D9;
     height: 800px;
 }
 
-.title-description-11 {
+.title-description-adidas {
     font-size: 25px;
     position: absolute;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
-.flex-11 {
+.flex-adidas {
     display: flex;
     justify-content: space-around;
     /*margin-top: 60px;*/
 
 }
 
-.nike-air-1 {
+.nike-air-adidas {
     width: 650px;
     height: 600px;
 }
 
-.price-tag-50 {
+.price-tag-adidas {
     font-size: 15px;
     position: absolute;
     margin-top: 40px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
-.stars-1 {
+.stars-adidas {
     margin-top: 70px;
 }
 
-.img-star {
+.img-star-adidas {
     width: 25px;
 }
 
@@ -55,7 +59,7 @@
     color: red;
 }
 
-.paragraph-50 {
+.paragraph-adidas {
     margin-top: 20px;
     font-size: 19px;
 }
@@ -63,6 +67,11 @@
 .title-50 {
     font-size: 15px;
     margin-top: 25px;
+}
+
+.title-adidas {
+    font-size: 15px;
+    margin-top: 15px;
 }
 
 .button-cart-1 {
@@ -81,11 +90,11 @@
     font-size: 15px;
 }
 
-.section-img-10 {
+.section-img-120 {
     margin-top: 100px;
 }
 
-.description-1 {
+.description-adidas {
     margin-top: 100px;
 
 }
@@ -124,70 +133,85 @@
     margin-left: 7px;
 }
 
-.under-flex-40 {
+.under-flex-adidas {
     display: flex;
     justify-content: space-around;
     margin-top: -60px;
 }
 
-.under-title-zoom {
+.under-title-adidas {
     font-size: 20px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
-.title-zoom {
+.title-zoom-adidas {
     position: absolute;
     margin-left: -1095px;
     margin-top: 104px;
 }
 
-.flex-image-1 {
+.flex-image-adidas {
     display: flex;
     justify-content: space-around;
     margin-top: 150px;
 }
 
-.img-zoom-1 {
-    width: 330px;
-    height: 330px;
-}
-
-.title-zoom-1 {
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.paragraph-zoom-1 {
-    font-size: 15px;
-    margin-top: 10px;
-}
-
-.img-zoom-2 {
+.img-adidas-1 {
     width: 330px;
     height: 330px;
     border: 1px solid black;
 }
 
-.title-zoom-2 {
+.title-adidas-1 {
     font-size: 20px;
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
-.paragraph-zoom-2 {
+.paragraph-adidas-1 {
     font-size: 15px;
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
-.img-zoom-3 {
+.img-adidas-2 {
+    width: 330px;
+    height: 330px;
+    border: 1px solid black;
+}
+
+.title-adidas-2 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
+}
+
+.paragraph-adidas-2 {
+    font-size: 15px;
+    margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-adidas-3 {
     width: 330px;
     height: 330px;
 }
 
-.title-zoom-3 {
+.title-adidas-3 {
     font-size: 20px;
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
-.paragraph-zoom-3 {
+.paragraph-adidas-3 {
     font-size: 15px;
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }

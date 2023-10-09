@@ -13,6 +13,10 @@
     display: flex;
 }
 
+.link-weeks-50 {
+    text-decoration: none;
+}
+
 .week-back {
     position: absolute;
     position: absolute;
@@ -52,6 +56,8 @@
     margin-left: -338px;
     margin-top: 35px;
     font-size: 20px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .section-img-1 {
@@ -84,34 +90,50 @@
 
 .title-react-v3 {
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .price-sneakers-1 {
     margin-top: 5px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .title-react-v4 {
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .price-sneakers-2 {
     margin-top: 5px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 
 .title-run-v3 {
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .price-sneakers-3 {
     margin-top: 5px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 
 .title-air-v7 {
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .price-sneakers-4 {
     margin-top: 5px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }

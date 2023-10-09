@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section-hat {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 110px;
+}
+
+.hat-img-1 {
+    width: 310px;
+    height: 250px;
+}
+
+.hat-img-2 {
+    width: 310px;
+    height: 250px;
+}
+
+.hat-img-3 {
+    width: 310px;
+    height: 250px;
+}
+
+.title-hat {
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.price-hat {
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+}

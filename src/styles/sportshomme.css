@@ -11,6 +11,8 @@
     position: absolute;
     margin-left: -322px;
     margin-top: 30px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .section-search1 {
@@ -48,6 +50,10 @@
     height: 50px;
 }
 
+.link-men {
+    text-decoration: none;
+}
+
 .icon-forward2 {
     width: 60%;
     margin-top: 7px;
@@ -66,6 +72,8 @@
 
 .title-football-1 {
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .basketball-men {
@@ -74,6 +82,8 @@
 
 .title-basketball-2 {
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .tennis-men {
@@ -82,4 +92,6 @@
 
 .title-tennis-3 {
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }

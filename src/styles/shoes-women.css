@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section-shoes-10 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 110px;
+}
+
+.img-shoes-20 {
+    width: 310px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.img-shoes-21 {
+    width: 310px;
+    height: 250px;
+}
+
+.img-shoes-22 {
+    width: 310px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.title-shoes-1 {
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.shoes-price {
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+}

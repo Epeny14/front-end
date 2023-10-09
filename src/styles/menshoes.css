@@ -15,7 +15,9 @@
 .title-shoes {
     position: absolute;
     margin-left: -323px;
-    font-size: 30px;
+    font-size: 20px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .shoes-back {
@@ -63,10 +65,14 @@
 
 .title-react-1 {
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .paragraph-shoes-1 {
     margin-top: 5px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .shoes-2 {
@@ -75,10 +81,14 @@
 
 .title-react-2 {
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .paragraph-shoes-2 {
     margin-top: 5px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .shoes-3 {
@@ -87,10 +97,14 @@
 
 .title-react-3 {
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .paragraph-shoes-3 {
     margin-top: 5px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .shoes-4 {
@@ -100,10 +114,14 @@
 
 .title-react-4 {
     margin-top: 10px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .paragraph-shoes-4 {
     margin-top: 5px;
+    color: #FF914D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .section-icons-3 {

@@ -28,6 +28,11 @@ import BasketballMen from './pages/BasketballMen';
 import TennisMen from './pages/TennisMen';
 import Contact from './pages/Contact';
 import WomanCatalog from './pages/WomanCatalog';
+import Chapeau from './pages/Chapeau';
+import Shoes from './pages/Shoes';
+import WomenFootball from './pages/WomenFootball';
+import WomenBasketball from './pages/WomenBasketball';
+import WomenTennis from './pages/WomenTennis';
 
 const App = () => {
   return (
@@ -61,6 +66,11 @@ const App = () => {
         <Route path="/tennis-homme" element={<TennisMen />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/femme-catalogue" element={<WomanCatalog />} />
+        <Route path="/chapeau-femmes" element={<Chapeau />} />
+        <Route path="/chaussures-femmes" element={<Shoes />} />
+        <Route path="/football-femmes" element={<WomenFootball />} />
+        <Route path="/basketball-femmes" element={<WomenBasketball />} />
+        <Route path="/tennis-femmes" element={<WomenTennis />} />
       </Routes>
     </BrowserRouter>
   );

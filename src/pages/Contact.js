@@ -1,14 +1,15 @@
 import React from 'react';
 import Header from '../components/Header';
 import ContactForm from '../components/ContactForm';
-import Footer from '../components/Footer';
+import ContactFooter from '../components/ContactFooter';
+
 
 const Contact = () => {
     return (
         <div>
             <Header />
             <ContactForm />
-            <Footer />
+            <ContactFooter />
         </div>
     );
 };

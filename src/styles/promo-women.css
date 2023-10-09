@@ -134,8 +134,12 @@
     text-align: center;
 }
 
+.link-paragraph-1 {
+    text-decoration: none;
+}
+
 .button-promo-15 {
-    margin-top: 265px;
+    margin-top: 143px;
     background: #F7931E;
     width: 130px;
     border: 1px solid #F7931E;

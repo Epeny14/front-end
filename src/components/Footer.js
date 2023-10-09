@@ -1,4 +1,5 @@
-import React from 'react';
+// import React from 'react';
+import React, { useState } from 'react';
 import "../styles/footer.css";
 import Img14 from "../img/Facebook.png";
 import Img15 from "../img/Instagram.png";
@@ -8,6 +9,38 @@ import Img18 from "../img/logo-shopsports.png";
 import Img19 from "../img/Copyright.png";
 
 const Footer = () => {
+    const [formData, setFormData] = useState({
+        email: '',
+    });
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({ ...formData, [name]: value });
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+            const response = await fetch('http://localhost:3001/newsletter', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            });
+            if (response.ok) {
+                // Le formulaire a été enregistré avec succès
+                alert("Vous êtes bien inscrit à newsletter");
+                // Réinitialisez le formulaire ou redirigez l'utilisateur si nécessaire
+            } else {
+                // Gérez les erreurs ici
+                alert("L' inscription a échoué");
+            }
+        } catch (err) {
+            console.error(err);
+        }
+    };
+
     return (
         <div>
             <div className="footer">
@@ -16,11 +49,9 @@ const Footer = () => {
                         <h4 className='title-newsletter'>Abonnez-vous à notre newsletter</h4>
                     </div>
                     <div className='section-form'>
-                        <form>
-                            <input className='form-newsletter' type="texte" name="fname" id="fname" placeholder="Votre adresse mail"></input>
-                            <button type="submit" className="btn-newsletter">
-                                <p>S'inscrire</p>
-                            </button>
+                        <form onSubmit={handleSubmit}>
+                            <input className='form-newsletter' type="email" name="email" id="email" value={formData.email} onChange={handleChange} placeholder="Votre adresse mail" required></input>
+                            <button type="submit" className="btn-newsletter">S'inscrire</button>
                         </form>
                     </div>
                 </div>
