@@ -9,6 +9,7 @@ import Img18 from "../img/logo-shopsports.png";
 import Img19 from "../img/Copyright.png";
 
 const Footer = () => {
+    const [message, setMessage] = useState('');
     const [formData, setFormData] = useState({
         email: '',
     });
@@ -29,12 +30,12 @@ const Footer = () => {
                 body: JSON.stringify(formData),
             });
             if (response.ok) {
-                // Le formulaire a été enregistré avec succès
-                alert("Vous êtes bien inscrit à newsletter");
-                // Réinitialisez le formulaire ou redirigez l'utilisateur si nécessaire
+
+                setMessage('Vous êtes bien incrit à la newsletter de ShopSports !');
+
             } else {
-                // Gérez les erreurs ici
-                alert("L' inscription a échoué");
+
+                setMessage('Une erreur s\'est produite lors de l\'inscription à la newsletter.');
             }
         } catch (err) {
             console.error(err);
@@ -53,6 +54,7 @@ const Footer = () => {
                             <input className='form-newsletter' type="email" name="email" id="email" value={formData.email} onChange={handleChange} placeholder="Votre adresse mail" required></input>
                             <button type="submit" className="btn-newsletter">S'inscrire</button>
                         </form>
+                        {message && <div className='message-newsletter-1'>{message}</div>}
                     </div>
                 </div>
                 <hr className='border-newsletter'></hr>

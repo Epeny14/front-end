@@ -4,6 +4,7 @@ import '../styles/contact.css';
 
 const ContactForm = () => {
 
+    const [messages, setMessages] = useState('');
     const [formData, setFormData] = useState({
         nom: '',
         prenom: '',
@@ -28,11 +29,11 @@ const ContactForm = () => {
             });
             if (response.ok) {
                 // Le formulaire a été enregistré avec succès
-                alert("Le message a bien été envoyé");
+                setMessages('Votre message à été bien envoyé !')
                 // Réinitialisez le formulaire ou redirigez l'utilisateur si nécessaire
             } else {
                 // Gérez les erreurs ici
-                alert("L' envoi du message a échoué");
+                setMessages('Une erreur s\'est produite lors de la soumission du formulaire.');
             }
         } catch (err) {
             console.error(err);
@@ -73,6 +74,7 @@ const ContactForm = () => {
                         <textarea name="message" placeholder='Votre message' value={formData.message} onChange={handleChange} required></textarea><br />
                         <button className='form-button' type="submit">Envoyer</button>
                     </form>
+                    {messages && <div>{messages}</div>}
                 </div>
             </div>
         </div>
