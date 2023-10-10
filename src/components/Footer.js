@@ -22,7 +22,7 @@ const Footer = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('http://localhost:3001/newsletter', {
+            const response = await fetch('https://blaise.startwin.fr/newsletter', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

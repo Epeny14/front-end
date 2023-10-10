@@ -15,7 +15,7 @@ const NikeRed = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:3001/home')
+        axios.get('https://blaise.startwin.fr/home')
             .then((response) => {
                 setData(response.data);
             })
@@ -38,7 +38,7 @@ const NikeRed = () => {
                     <div className='section-description-15'>
                         {data.map((item) => (
                             <div key={item.id}>
-                                <h1 className='titles-descriptions-11'>{item.nom}</h1>
+                                <h1 className='titles-descriptions-red-11'>{item.nom}</h1>
                                 <div className='stars-11'>
                                     <img src={Img80} alt='star' className='img-star'></img>
                                     <img src={Img80} alt='star' className='img-star'></img>
@@ -46,8 +46,8 @@ const NikeRed = () => {
                                     <img src={Img80} alt='star' className='img-star'></img>
                                     <img src={Img80} alt='star' className='img-star'></img>
                                 </div>
-                                <p className='price-tags-50'>{item.prix}</p>
-                                <p className='paragraphs-50'>{item.description}</p><br />
+                                <p className='price-tag-red'>{item.prix}</p>
+                                <p className='paragraph-nike-red'>{item.description} €</p><br />
                             </div>
                         ))}
                     </div>

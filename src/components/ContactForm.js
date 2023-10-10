@@ -20,7 +20,7 @@ const ContactForm = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('http://localhost:3001/formulaires', {
+            const response = await fetch('https://blaise.startwin.fr/formulaires', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
