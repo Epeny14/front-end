@@ -33,6 +33,8 @@ import Shoes from './pages/Shoes';
 import WomenFootball from './pages/WomenFootball';
 import WomenBasketball from './pages/WomenBasketball';
 import WomenTennis from './pages/WomenTennis';
+import ZoomNike from './pages/ZoomNike';
+import NikeReact from './pages/NikeReact';
 
 const App = () => {
   return (
@@ -71,6 +73,8 @@ const App = () => {
         <Route path="/football-femmes" element={<WomenFootball />} />
         <Route path="/basketball-femmes" element={<WomenBasketball />} />
         <Route path="/tennis-femmes" element={<WomenTennis />} />
+        <Route path="/description-nike-zoom-react-v-50" element={<ZoomNike />} />
+        <Route path="/description-nike-zoom-react" element={<NikeReact />} />
       </Routes>
     </BrowserRouter>
   );

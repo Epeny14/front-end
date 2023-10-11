@@ -2,8 +2,8 @@ import React from 'react';
 import Img79 from '../img/Basket-2.png';
 import Img80 from '../img/Star.png';
 // import Img81 from '../img/Fire.png';
-import Img82 from '../img/Back.png';
-import Img83 from '../img/Forward.png';
+// import Img82 from '../img/Back.png';
+// import Img83 from '../img/Forward.png';
 import Img84 from '../img/Canva - casquette - 1.png';
 import Img85 from '../img/Canva - Nike - 14.png';
 import Img86 from '../img/Nike - ballon - 1.png';
@@ -18,7 +18,7 @@ const HomeReact = () => {
                         <img src={Img79} alt="basket" className='nike-air-2'></img>
                     </div>
                     <div className='description-1'>
-                        <h1 className='title-description-air'>Nike Air Max</h1>
+                        <h1 className='title-description-air'>Nike Air Max 270 React</h1>
                         <p className='price-tag-air'>50,00 €</p>
                         <div className='stars-air'>
                             <img src={Img80} alt='star' className='img-star-air'></img>
@@ -37,7 +37,7 @@ const HomeReact = () => {
                             Ces unités d'air comprimé offrent un amorti <br /> réactif qui permet aux athlètes de bénéficier d'une excellente restitution de l'énergie, <br />
                             ce qui les aide à optimiser leur performance.
                         </p>
-                        <h2 className='title-air'>Couleurs : Rouge, blanche</h2>
+                        {/* <h2 className='title-air'>Couleurs : Rouge, blanche</h2> */}
                         {/* <div className='button-cart-1'>
                             <p className='paragraph-cart-1'>Ajouter au panier</p>
                         </div> */}
@@ -49,14 +49,14 @@ const HomeReact = () => {
                     <div className='title-zoom'>
                         <h1 className='under-title-air'>Vous aimerez peut-être aussi</h1>
                     </div>
-                    <div className='icon-zoom'>
+                    {/* <div className='icon-zoom'>
                         <div className='back-zoom'>
                             <img src={Img82} alt="back" className='img-back'></img>
                         </div>
                         <div className='forward-zoom'>
                             <img src={Img83} alt="forward" className='img-forward'></img>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className='flex-image-air'>
                     <div className='section-zoom-1'>

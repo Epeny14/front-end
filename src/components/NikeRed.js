@@ -3,8 +3,8 @@ import React, { useEffect, useState } from 'react';
 // import Img79 from '../img/basket-shop.jpg';
 import Img80 from '../img/Star.png';
 // import Img81 from '../img/Fire.png';
-import Img82 from '../img/Back.png';
-import Img83 from '../img/Forward.png';
+// import Img82 from '../img/Back.png';
+// import Img83 from '../img/Forward.png';
 import Img84 from '../img/iStock - Adidas - 1.jpg';
 import Img85 from '../img/iStock - Adidas - 2.jpg';
 import Img86 from '../img/Canva - Basket - 30.png';
@@ -96,12 +96,12 @@ const NikeRed = () => {
                         <h1 className='under-title-zoom-1'>Vous aimerez peut-être aussi</h1>
                     </div>
                     <div className='icon-zoom'>
-                        <div className='back-zoom'>
+                        {/* <div className='back-zoom'>
                             <img src={Img82} alt="back" className='img-back'></img>
                         </div>
                         <div className='forward-zoom'>
                             <img src={Img83} alt="forward" className='img-forward'></img>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className='flex-image-1'>

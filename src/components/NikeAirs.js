@@ -2,8 +2,8 @@ import React from 'react';
 import Img79 from '../img/Design sans titre (6).png';
 import Img80 from '../img/Star.png';
 // import Img81 from '../img/Fire.png';
-import Img82 from '../img/Back.png';
-import Img83 from '../img/Forward.png';
+// import Img82 from '../img/Back.png';
+// import Img83 from '../img/Forward.png';
 import Img84 from '../img/Flickr - Nike - 2.jpg';
 import Img85 from '../img/Flickr - Nike - 3.jpg';
 import Img86 from '../img/Flickr - Nike - 4.jpg';
@@ -49,14 +49,14 @@ const NikeAirs = () => {
                     <div className='title-react'>
                         <h1 className='under-title-react'>Vous aimerez peut-être aussi</h1>
                     </div>
-                    <div className='icon-zoom'>
+                    {/* <div className='icon-zoom'>
                         <div className='back-zoom'>
                             <img src={Img82} alt="back" className='img-back'></img>
                         </div>
                         <div className='forward-zoom'>
                             <img src={Img83} alt="forward" className='img-forward'></img>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className='flex-image-react'>
                     <div className='section-zoom-1'>

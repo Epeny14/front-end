@@ -4,8 +4,8 @@ import Img35 from '../img/Puma.jpg';
 import Img36 from '../img/Reebok.jpg';
 import Img37 from '../img/Nike V2.png';
 // import React, { useEffect, useState } from 'react';
-import Img38 from '../img/Back.png';
-import Img39 from '../img/Forward.png';
+// import Img38 from '../img/Back.png';
+// import Img39 from '../img/Forward.png';
 import '../styles/menshoes.css';
 import { Link } from 'react-router-dom';
 // import axios from 'axios';
@@ -32,14 +32,14 @@ const Menshoes = () => {
                     <div className='paragraph-shoes'>
                         <h4 className='title-shoes'>Les chaussures</h4>
                     </div>
-                    <div className='section-icons-3'>
+                    {/* <div className='section-icons-3'>
                         <div className='shoes-back'>
                             <img src={Img38} alt="icon-back" className="icon-back3"></img>
                         </div>
                         <div className='shoes-forward'>
                             <img src={Img39} alt="icon-forward" className="icon-forward3"></img>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className='flex-shoes'>
                     {/* <div className='section-flex-1'>

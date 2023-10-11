@@ -7,10 +7,16 @@ import PromoWomen from '../components/PromoWomen';
 import SearchWomen from '../components/SearchWomen';
 import ArticleWomen from '../components/ArticleWomen';
 import Footer from '../components/Footer';
+import { Helmet } from 'react-helmet';
 
 const Femme = () => {
     return (
         <div>
+            <Helmet>
+                <title>Shopsports - la page Femme</title>
+                <meta name="description" content="Shopsports -  la page Femme" />
+
+            </Helmet>
             <Header />
             <SectionWomen />
             <SectionWeek />

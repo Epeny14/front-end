@@ -13,21 +13,23 @@
     margin-top: 55px;
     color: #FF914D;
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
 .section-articles {
-    margin-top: 50px;
+    margin-top: 15px;
     display: flex;
     justify-content: space-around;
 }
 
 .skatebord-article {
     width: 600px;
+    height: 370px;
 }
 
 .stade-article {
     width: 600px;
-    height: 397px;
+    height: 370px;
 }
 
 .under-festival-1 {

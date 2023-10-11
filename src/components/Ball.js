@@ -2,8 +2,8 @@ import React from 'react';
 import Img79 from '../img/basketballs-215874_1280.jpg';
 import Img80 from '../img/Star.png';
 // import Img81 from '../img/Fire.png';
-import Img82 from '../img/Back.png';
-import Img83 from '../img/Forward.png';
+// import Img82 from '../img/Back.png';
+// import Img83 from '../img/Forward.png';
 import Img84 from '../img/Pixabay - basketball - 1.jpg';
 import Img85 from '../img/Pixabay - basketball - 2.jpg';
 import Img86 from '../img/Pixabay - jersey - 1.jpg';
@@ -18,7 +18,7 @@ const Ball = () => {
                         <img src={Img79} alt="basket" className='nike-air-ball'></img>
                     </div>
                     <div className='description-basket'>
-                        <h1 className='title-description-ball'>Ballon de basket</h1>
+                        <h1 className='title-description-ball'>Ballon de basketball</h1>
                         <p className='price-tag-ball'>70,00 €</p>
                         <div className='stars-basket'>
                             <img src={Img80} alt='star' className='img-star-ball'></img>
@@ -37,7 +37,7 @@ const Ball = () => {
                             Ces unités d'air comprimé offrent un amorti <br /> réactif qui permet aux athlètes de bénéficier d'une excellente restitution de l'énergie, <br />
                             ce qui les aide à optimiser leur performance.
                         </p>
-                        <h2 className='title-basketball'>Couleurs : Rouge, blanche</h2>
+                        {/* <h2 className='title-basketball'>Couleurs : Rouge, blanche</h2> */}
                         {/* <div className='button-cart-1'>
                             <p className='paragraph-cart-1'>Ajouter au panier</p>
                         </div> */}
@@ -49,14 +49,14 @@ const Ball = () => {
                     <div className='title-zoom-ball'>
                         <h1 className='under-title-zoom-ball'>Vous aimerez peut-être aussi</h1>
                     </div>
-                    <div className='icon-zoom'>
+                    {/* <div className='icon-zoom'>
                         <div className='back-zoom'>
                             <img src={Img82} alt="back" className='img-back'></img>
                         </div>
                         <div className='forward-zoom'>
                             <img src={Img83} alt="forward" className='img-forward'></img>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className='flex-image-basket'>
                     <div className='section-zoom-1'>

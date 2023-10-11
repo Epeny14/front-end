@@ -1,7 +1,7 @@
 import React from 'react';
 // import React, { useEffect, useState } from 'react';
-import Img74 from '../img/Back.png';
-import Img75 from '../img/Forward.png';
+// import Img74 from '../img/Back.png';
+// import Img75 from '../img/Forward.png';
 import Img76 from '../img/Football - enfants.png';
 import Img77 from '../img/Basketball - enfants.png';
 import Img78 from '../img/danse-canva-1.png';
@@ -30,14 +30,14 @@ const SearchKids = () => {
                     <div className='title-search-11'>
                         <h1 className='under-title-search-1'>Rechercher par sport</h1>
                     </div>
-                    <div className='section-search-14'>
+                    {/* <div className='section-search-14'>
                         <div className='search-back-14'>
                             <img src={Img74} alt="icon-back-85" className="icon-back-95"></img>
                         </div>
                         <div className='search-forward-14'>
                             <img src={Img75} alt="icon-forward-85" className="icon-forward-95"></img>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className='search-kids-2'>
                     <div className='under-search-1'>

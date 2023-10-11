@@ -1,9 +1,9 @@
 import React from 'react';
 import Img79 from '../img/Reebok.jpg';
 import Img80 from '../img/Star.png';
-import Img81 from '../img/Fire.png';
-import Img82 from '../img/Back.png';
-import Img83 from '../img/Forward.png';
+// import Img81 from '../img/Fire.png';
+// import Img82 from '../img/Back.png';
+// import Img83 from '../img/Forward.png';
 import Img84 from '../img/Flickr - Reebok - 1.jpg';
 import Img85 from '../img/Flickr - Reebok - 2.jpg';
 import Img86 from '../img/Flickr - Reebok - 3.jpg';
@@ -27,20 +27,20 @@ const Reebok = () => {
                             <img src={Img80} alt='star' className='img-star'></img>
                             <img src={Img80} alt='star' className='img-star'></img>
                         </div>
-                        <div className='paragraph-fire'>
+                        {/* <div className='paragraph-fire'>
                             <img src={Img81} alt='fire' className='img-fire'></img>
                             <p className='under-fire-1'>20 articles vendus au cours des dernières 23 heures</p>
-                        </div>
+                        </div> */}
 
                         <p className='paragraph-50'>La caractéristique principale des Nike Air Red est la technologie Red Air,<br />
                             qui consiste en des unités d'amorti remplies d'air situées dans la semelle <br /> intermédiaire de la chaussure.
                             Ces unités d'air comprimé offrent un amorti <br /> réactif qui permet aux athlètes de bénéficier d'une excellente restitution de l'énergie, <br />
                             ce qui les aide à optimiser leur performance.
                         </p>
-                        <h2 className='title-50'>Couleurs : Rouge, blanche</h2>
+                        {/* <h2 className='title-50'>Couleurs : Rouge, blanche</h2>
                         <div className='button-cart-1'>
                             <p className='paragraph-cart-1'>Ajouter au panier</p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -49,14 +49,14 @@ const Reebok = () => {
                     <div className='title-zoom'>
                         <h1 className='under-title-zoom'>Vous aimerez peut-être aussi</h1>
                     </div>
-                    <div className='icon-zoom'>
+                    {/* <div className='icon-zoom'>
                         <div className='back-zoom'>
                             <img src={Img82} alt="back" className='img-back'></img>
                         </div>
                         <div className='forward-zoom'>
                             <img src={Img83} alt="forward" className='img-forward'></img>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className='flex-image-1'>
                     <div className='section-zoom-1'>

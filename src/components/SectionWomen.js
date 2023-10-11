@@ -8,7 +8,7 @@ const SectionWomen = () => {
         <div>
             <div className='section-women'>
                 <div className='text-section-1'>
-                    <h1 className='title-15'>Nouvelles collections leggins</h1>
+                    <h1 className='title-15'>Nouvelles collections</h1>
                     <p className='description-paragraph-1'>Découvert les nouvelles collections avec des bonne qualité</p>
                     <div className='button-10'>
                         <Link className='link-women' to="/femme-catalogue"><p className='paragraph-button-1'>Voir plus</p></Link>

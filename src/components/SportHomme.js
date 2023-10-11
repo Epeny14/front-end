@@ -1,7 +1,7 @@
 import React from 'react';
 // import React, { useEffect, useState } from 'react';
-import Img29 from '../img/Back.png';
-import Img30 from '../img/Forward.png';
+// import Img29 from '../img/Back.png';
+// import Img30 from '../img/Forward.png';
 import Img31 from '../img/Football.jpg';
 import Img32 from '../img/Basketball.jpg';
 import Img33 from '../img/Tennis.jpg';
@@ -30,14 +30,14 @@ const SportHomme = () => {
                     <div className='title-search1'>
                         <h4 className='under-titles-10'>Rechercher par sport</h4>
                     </div>
-                    <div className='section-icons2'>
+                    {/* <div className='section-icons2'>
                         <div className='search-back'>
                             <img src={Img29} alt="icon-back" className="icon-back2"></img>
                         </div>
                         <div className='search-forward'>
                             <img src={Img30} alt="icon-forward" className="icon-forward2"></img>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className='section-flex2'>
                     <div className='image-flex1'>

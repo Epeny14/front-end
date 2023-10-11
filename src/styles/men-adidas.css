@@ -94,7 +94,7 @@
 
 }
 
-.back-zoom {
+/* .back-zoom {
     border: 1px solid #FF914D;
     background: #FF914D;
     width: 50px;
@@ -126,7 +126,7 @@
     width: 60%;
     margin-top: 7px;
     margin-left: 7px;
-}
+} */
 
 .under-flex-40 {
     display: flex;

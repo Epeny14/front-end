@@ -22,7 +22,8 @@ li {
 .header {
     display: flex;
     height: 65px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #FFFFFF;
+    background: black;
 }
 
 .under-header {
@@ -54,7 +55,7 @@ li {
 
 .list {
     font-family: 'Roboto', sans-serif;
-    color: black;
+    color: #FFFFFF;
 }
 
 /*---------- Le style de la page Basket.js --------------*/
@@ -153,4 +154,10 @@ li {
     text-align: center;
     margin-top: 18px;
     font-size: 26px;
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        width: 100%;
+    }
 }

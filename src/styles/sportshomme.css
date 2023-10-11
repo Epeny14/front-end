@@ -9,10 +9,11 @@
 
 .under-titles-10 {
     position: absolute;
-    margin-left: -322px;
-    margin-top: 30px;
+    margin-left: -704px;
+    margin-top: 50px;
     color: #FF914D;
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
 .section-search1 {
@@ -20,7 +21,7 @@
     justify-content: space-around;
 }
 
-.section-icons2 {
+/* .section-icons2 {
     display: flex;
 }
 
@@ -48,17 +49,17 @@
     border-radius: 25px;
     width: 50px;
     height: 50px;
-}
+} */
 
 .link-men {
     text-decoration: none;
 }
 
-.icon-forward2 {
+/* .icon-forward2 {
     width: 60%;
     margin-top: 7px;
     margin-left: 7px;
-}
+} */
 
 .section-flex2 {
     display: flex;
@@ -68,6 +69,7 @@
 
 .football-men {
     width: 400px;
+    height: 270px;
 }
 
 .title-football-1 {
@@ -78,6 +80,7 @@
 
 .basketball-men {
     width: 400px;
+    height: 270px;
 }
 
 .title-basketball-2 {
@@ -88,6 +91,7 @@
 
 .tennis-men {
     width: 400px;
+    height: 270px;
 }
 
 .title-tennis-3 {

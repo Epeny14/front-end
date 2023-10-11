@@ -42,15 +42,15 @@ const SearchWomen = () => {
                 <div className='section-flex-10'>
                     <div className='under-flex-20'>
                         <img src={Img55} alt='Football - Femme' className='football-women'></img>
-                        <Link to='/football-femmes' className='link-search'><h2 className='football-title-1'>Football</h2></Link>
+                        <Link to='/' className='link-search'><h2 className='football-title-1'>Football</h2></Link>
                     </div>
                     <div className='under-flex-21'>
                         <img src={Img56} alt='Basketball - Femme' className='basketball-women'></img>
-                        <Link to='/basketball-femmes' className='link-search'><h2 className='basketball-title-1'>Basketball</h2></Link>
+                        <Link to='/' className='link-search'><h2 className='basketball-title-1'>Basketball</h2></Link>
                     </div>
                     <div className='under-flex-22'>
                         <img src={Img57} alt='Tennis - Femme' className='tennis-women'></img>
-                        <Link to='/tennis-femmes' className='link-search'><h2 className='tennis-title-1'>Tennis</h2></Link>
+                        <Link to='/' className='link-search'><h2 className='tennis-title-1'>Tennis</h2></Link>
 
                     </div>
                     {/* <div className='section-flex-1'>

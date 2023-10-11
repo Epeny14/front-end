@@ -2,8 +2,8 @@ import React from 'react';
 import Img79 from '../img/football-19448_1920.jpg';
 import Img80 from '../img/Star.png';
 // import Img81 from '../img/Fire.png';
-import Img82 from '../img/Back.png';
-import Img83 from '../img/Forward.png';
+// import Img82 from '../img/Back.png';
+// import Img83 from '../img/Forward.png';
 import Img84 from '../img/Canva - Foot - 1.png';
 import Img85 from '../img/Canva - Foot - 2.png';
 import Img86 from '../img/Canva - Foot - 3.png';
@@ -37,7 +37,7 @@ const Shoes = () => {
                             Ces unités d'air comprimé offrent un amorti <br /> réactif qui permet aux athlètes de bénéficier d'une excellente restitution de l'énergie, <br />
                             ce qui les aide à optimiser leur performance.
                         </p>
-                        <h2 className='title-football'>Couleurs : Rouge, blanche</h2>
+                        {/* <h2 className='title-football'>Couleurs : Rouge, blanche</h2> */}
                         {/* <div className='button-cart-1'>
                             <p className='paragraph-cart-1'>Ajouter au panier</p>
                         </div> */}
@@ -49,14 +49,14 @@ const Shoes = () => {
                     <div className='title-zoom-foot'>
                         <h1 className='under-title-zoom-foot'>Vous aimerez peut-être aussi</h1>
                     </div>
-                    <div className='icon-zoom'>
+                    {/* <div className='icon-zoom'>
                         <div className='back-zoom'>
                             <img src={Img82} alt="back" className='img-back'></img>
                         </div>
                         <div className='forward-zoom'>
                             <img src={Img83} alt="forward" className='img-forward'></img>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className='flex-image-1'>
                     <div className='section-zoom-1'>

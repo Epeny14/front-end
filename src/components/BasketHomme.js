@@ -4,8 +4,8 @@ import Img26 from '../img/Nike - 1.png';
 import Img27 from '../img/Design sans titre (3).png';
 import Img28 from '../img/Design sans titre (5).png';
 // import React, { useEffect, useState } from 'react';
-import Img23 from '../img/Back.png';
-import Img24 from '../img/Forward.png';
+// import Img23 from '../img/Back.png';
+// import Img24 from '../img/Forward.png';
 import { Link } from 'react-router-dom';
 import "../styles/baskethomme.css";
 // import axios from 'axios';
@@ -30,14 +30,14 @@ const BasketHomme = () => {
                     <div className='under-section-homme2'>
                         <h4 className='title-moment'>En ce moment</h4>
                     </div>
-                    <div className='section-icons1'>
+                    {/* <div className='section-icons1'>
                         <div className='back'>
                             <img src={Img23} alt="icon-back" className="icon-back"></img>
                         </div>
                         <div className='forward'>
                             <img src={Img24} alt="icon-forward" className="icon-forward"></img>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className='section-flex'>
                     {/* <div className='section-flex-1'>

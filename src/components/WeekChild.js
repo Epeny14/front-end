@@ -1,7 +1,7 @@
 import React from 'react';
 // import React, { useEffect, useState } from 'react';
-import Img69 from '../img/Back.png';
-import Img70 from '../img/Forward.png';
+// import Img69 from '../img/Back.png';
+// import Img70 from '../img/Forward.png';
 import Img71 from '../img/Ballon or.png';
 import Img72 from '../img/T shirt enfant.png';
 import Img73 from '../img/Ballon - Ghana.png';
@@ -31,14 +31,14 @@ const WeekChild = () => {
                     <div className='title-weeks-11'>
                         <h1 className='under-title-weeks-1'>Nouveautés de la semaine</h1>
                     </div>
-                    <div className='section-weeks-11'>
+                    {/* <div className='section-weeks-11'>
                         <div className='weeks-back-1'>
                             <img src={Img69} alt="icon-back-85" className="icon-back-85"></img>
                         </div>
                         <div className='weeks-forward-1'>
                             <img src={Img70} alt="icon-forward-85" className="icon-forward-85"></img>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className='weeks-shoes-1'>
                     {/* <div className='section-flex-1'>

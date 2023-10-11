@@ -6,8 +6,8 @@ import Img65 from '../img/Basket - enfant (3).jpg';
 // import axios from 'axios';
 // import "../styles/baskethomme.css";
 import { Link } from 'react-router-dom';
-import Img67 from '../img/Back.png';
-import Img68 from '../img/Forward.png';
+// import Img67 from '../img/Back.png';
+// import Img68 from '../img/Forward.png';
 import '../styles/child-shoes.css';
 
 const ChildShoes = () => {
@@ -30,14 +30,14 @@ const ChildShoes = () => {
                     <div className='title-shoes-11'>
                         <h1 className='under-title-shoes-1'>Les chaussures</h1>
                     </div>
-                    <div className='section-shoes-11'>
+                    {/* <div className='section-shoes-11'>
                         <div className='shoes-back-1'>
                             <img src={Img67} alt="icon-back-40" className="icon-back-40"></img>
                         </div>
                         <div className='shoes-forward-1'>
                             <img src={Img68} alt="icon-forward-40" className="icon-forward-40"></img>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className='flex-shoes-1'>
                     {/* <div className='section-flex-1'>

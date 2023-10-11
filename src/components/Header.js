@@ -1,14 +1,18 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../styles/styles.css';
-import MonImage from '../img/Logo.png';
-import Img1 from '../img/Search.png';
+import MonImage from '../img/Logo-2.png';
+import Img1 from '../img/Search-2.png';
 // import Img2 from '../img/Buying.png';
+
+
+
 
 const Header = () => {
 
     return (
         <div>
+
             <div className="header">
                 <ul>
                     <NavLink to="/" style={{ textDecoration: 'none' }}>
