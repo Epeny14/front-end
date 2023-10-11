@@ -6,16 +6,12 @@ import SportHomme from '../components/SportHomme';
 import Menshoes from '../components/Menshoes';
 import ArticleMen from '../components/ArticleMen';
 import Footer from '../components/Footer';
-import { Helmet } from 'react-helmet';
+
 
 const Homme = () => {
     return (
         <div>
-            <Helmet>
-                <title>Shopsports - la page Homme</title>
-                <meta name="description" content="Shopsports - la page Homme" />
 
-            </Helmet>
             <Header />
             <SectionHomme />
             <BasketHomme />

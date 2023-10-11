@@ -6,16 +6,12 @@ import ChildShoes from '../components/ChildShoes';
 import WeekChild from '../components/WeekChild';
 import SearchKids from '../components/SearchKids';
 import Footer from '../components/Footer';
-import { Helmet } from 'react-helmet';
+
 
 const Enfant = () => {
     return (
         <div>
-            <Helmet>
-                <title>Shopsports - La page Enfants</title>
-                <meta name="description" content="Shopsports - la page enfants" />
 
-            </Helmet>
             <Header />
             <SectionChild />
             <ArticleChildren />
